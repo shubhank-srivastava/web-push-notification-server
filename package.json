@@ -1,0 +1,22 @@
+{
+  "name": "google-docs-listener",
+  "version": "1.0.0",
+  "description": "A command line tool for listening to google sheets.",
+  "main": "index.js",
+  "bin": {
+    "gsheets": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shubhank Srivastava",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "chromedriver": "^2.12.0",
+    "commander": "^2.9.0",
+    "google-spreadsheet": "^2.0.3",
+    "selenium-webdriver": "^2.53.3",
+    "web-push": "^3.2.1"
+  }
+}
